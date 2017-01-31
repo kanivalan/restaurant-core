@@ -13,6 +13,8 @@ public class TestSeatsDao {
 		
 //		seats.setSeat_Id(1);
 //		seats.setSeat_No("seat1");
+		
+		//select all details from seats table
 		List<Seats> list= seatsDAO.list();
 		Iterator<Seats> i=list.iterator();
 		while(i.hasNext())

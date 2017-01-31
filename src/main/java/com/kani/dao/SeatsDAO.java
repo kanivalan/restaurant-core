@@ -22,7 +22,7 @@ public class SeatsDAO {
 	}
 	   public List<Seats> list(){
 			
-			String sql="Seat_Id,Seat_No FROM seats";
+			String sql=" select Seat_Id,Seat_No FROM seats";
 			return jdbcTemplate.query(sql,(rs,rowNum)->
 			{
 				Seats seats = new Seats();

@@ -8,7 +8,7 @@ public class TestMenuItemsDAO {
 	MenuItems menuitems = new MenuItems();
 	MenuItemsDAO menuitemsDAO = new MenuItemsDAO();
 	
-	menuitems.setId(id);
-	menuitems.setItem_Name(Item_Name);
+//	menuitems.setId();
+//	menuitems.setItem_Name();
 }
 }
